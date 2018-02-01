@@ -34,7 +34,6 @@ for(i=0;i<target_url.length;i++){
  	target_url[i] = temp.join("/");
 }
 WScript.Echo(target_url);
-WScript.Quit();
 for(i=0;i<target_url.length;i++){
 	objStream.Open;
 	WScript.Echo(target_url[i]);
